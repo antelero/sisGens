@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>sisGens | www.incanatoit.com</title>
+    <title>sisGens | Sistema de Gestion</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.5 -->
@@ -27,9 +27,9 @@
       <header class="main-header">
 
         <!-- Logo -->
-        <a href="/" class="logo">
+        <a href="#" class="logo">
           <!-- mini logo for sidebar mini 50x50 pixels -->
-          <span class="logo-mini"><b>SG</b>V</span>
+          <span class="logo-mini"><b>sG</b>V</span>
           <!-- logo for regular state and mobile devices -->
           <span class="logo-lg"><b>sisGens</b></span>
         </a>
@@ -54,13 +54,14 @@
                 <ul class="dropdown-menu">
                   <!-- User image -->
                   <li class="user-header">
-                    
-                    <p>
-                      www.incanatoit.com - Desarrollando Software
-                      <small>www.youtube.com/jcarlosad7</small>
+                     <p>
+                        Leonardo Brambilla
+                        <small>Desde Nov. 2003</small>
                     </p>
-                  </li>
-                  
+                    <p>
+                      Desarrollo de Software                      
+                    </p>
+                  </li>                  
                   <!-- Menu Footer-->
                   <li class="user-footer">
                     
@@ -139,19 +140,20 @@
                 <i class="fa fa-angle-left pull-right"></i>
               </a>
               <ul class="treeview-menu">
-                <li><a href="{{url('configuracion/usuario')}}"><i class="fa fa-circle-o"></i> Usuarios</a></li>
-                
+                <li><a href="{{url('configuracion/usuario')}}"><i class="fa fa-circle-o"></i> Usuarios</a></li>                
               </ul>
             </li>
-             <li>
+            <li class="treeview">
               <a href="#">
-                <i class="fa fa-plus-square"></i> 
-                <a href="{{url('')}}">
-                  <span>Ayuda</span>
-                </a>
-                <small class="label pull-right bg-red">PDF</small>
+                <i class="fa fa-folder"></i> <span>Acceso</span>
+                <i class="fa fa-angle-left pull-right"></i>
               </a>
+              <ul class="treeview-menu">
+                <li><a href="{{url('ayuda')}}"><i class="fa fa-circle-o"></i> Ayuda</a></li>    
+                <li><a href="{{url('pdf')}}"><i class="fa fa-circle-o"></i> Ayuda en PDF<small class="label pull-right bg-red">PDF</small></a></li>                
+              </ul>
             </li>
+
             <li>
               <a href="#">
                 <i class="fa fa-info-circle"></i> <span>Acerca De...</span>
@@ -210,7 +212,7 @@
         <div class="pull-right hidden-xs">
           <b>Version</b> 0.0.1
         </div>
-        <strong>Copyright &copy; 2015-2020 <a href="www.incanatoit.com">sisGens</a>.</strong> All rights reserved.
+        <strong>Copyright &copy; 2015-2020 <a href="#">sisGens</a>.</strong> All rights reserved. Plantilla <a href="https://adminlte.io/">AdminLTE App</a>.
       </footer>
 
       
